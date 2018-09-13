@@ -1,6 +1,6 @@
 module.exports = {
   copylicenseFile: {
-    src: ['{{ROOT}}/resources/ios/rtr_assets/**/*'],
+    src: ['{{ROOT}}/resources/android/rtr_assets/**/*'],
     dest: '{{WWW}}/rtr_assets/'
   }
 }
