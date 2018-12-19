@@ -3,7 +3,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class RTRTextLine;
+@class RTRDataField;
 
 /// Field of recognized DataCapture scenario.
 @interface RTRDataField : NSObject
@@ -17,7 +17,7 @@
 /// Four vertices of the bounding quadrangle.
 @property (nonatomic, strong, readonly) NSArray<NSValue*>* quadrangle;
 /// In some cases the field contains several components, like for example passport number or last name.
-@property (nonatomic, strong, readonly) NSArray<RTRTextLine*>* components;
+@property (nonatomic, strong, readonly) NSArray<RTRDataField*>* components;
 
 - (instancetype)init __unavailable;
 

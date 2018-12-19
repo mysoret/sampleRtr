@@ -7,9 +7,9 @@
 @interface RTRDataScheme : NSObject
 
 /// The scheme identifier.
-@property (nonatomic, strong, readonly ) NSString* id;
+@property (nonatomic, strong, readonly) NSString* id;
 /// The human-readable name of the scheme.
-@property (nonatomic, strong, readonly ) NSString* name;
+@property (nonatomic, strong, readonly) NSString* name;
 
 - (instancetype)init __unavailable;
 
